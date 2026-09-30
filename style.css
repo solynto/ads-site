@@ -244,19 +244,6 @@ section[id] { scroll-margin-top: 84px; }
 
 .platform-footer { padding: 18px 30px; background: var(--surface-green); border-top: 1px solid var(--border); color: var(--muted); font-size: 10px; }
 
-.white-label-points {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 100px;
-  border-top: 1px solid var(--border);
-}
-.white-label-points > div { padding: 30px; border-right: 1px solid var(--border); }
-.white-label-points > div:first-child { padding-left: 0; }
-.white-label-points > div:last-child { padding-right: 0; border-right: none; }
-.white-label-points > div > strong { color: var(--green); font-size: 11px; font-weight: 600; }
-.white-label-points h3 { margin: 38px 0 12px; font-size: 20px; font-weight: 500; }
-.white-label-points p { max-width: 300px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
-
 /* About / founder */
 .founder { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
 .founder p { margin: 0 0 16px; color: var(--muted); font-size: 16px; line-height: 1.7; }
@@ -309,11 +296,9 @@ section[id] { scroll-margin-top: 84px; }
 
   .feature-grid,
   .process-grid,
-  .agency-points,
-  .white-label-points { grid-template-columns: 1fr; }
+  .agency-points { grid-template-columns: 1fr; }
 
   .process-grid { gap: 40px; }
-  .white-label-points { margin-top: 70px; }
 
   .feature-card { min-height: auto; border-right: none; border-bottom: 1px solid var(--border); }
   .feature-card:last-child { border-bottom: none; }
@@ -323,15 +308,6 @@ section[id] { scroll-margin-top: 84px; }
   .platform-brand { align-items: flex-start; flex-direction: column; gap: 22px; }
   .platform-metrics { padding: 28px 20px; }
   .platform-metrics strong { font-size: 22px; }
-
-  .white-label-points > div,
-  .white-label-points > div:first-child,
-  .white-label-points > div:last-child {
-    padding: 28px 0;
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
-  .white-label-points > div:last-child { border-bottom: none; }
 
   .footer-top { flex-direction: column; }
   .footer-links { gap: 60px; }
